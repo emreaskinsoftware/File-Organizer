@@ -24,8 +24,8 @@ Follow these steps to get the script up and running on your local machine.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/KULLANICI-ADIN/REPO-ADIN.git](https://github.com/KULLANICI-ADIN/REPO-ADIN.git)
-    cd REPO-ADIN
+    git clone [https://github.com/Your user name/name of repo.git](https://github.com/Your user name/name of repo.git)
+    cd name of repo
     ```
 2.  **Configure the Rules in `main.py`:**
     -   Set the `path` variable to the absolute path of the directory you want to organize.
