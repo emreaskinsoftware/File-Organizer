@@ -1,7 +1,7 @@
 import os
 import shutil
 
-path ="C:/Users/muhammet/Desktop/Deneme"
+path ="The path to the folder you want to organize "
 remove_ex = [".log",".tmp"]
 move_ex = {".docx":"Documents",".txt":"Documents",".png":"Pictures",".jpeg":"Pictures",
            ".jpg":"Pictures",".pptx":"Powerpoint Files",".xlsx":"Excel Files"}
@@ -30,7 +30,7 @@ for file in os.listdir(path):
             print(e)
 
 if processed_files_count == 0:
-    print("İşlem yapılacak herhangi bir dosya bulunamadı.")
+    print("No files found to process.")
 else:
-    print(f"Toplam {processed_files_count} adet dosya işlendi.")
+    print(f"Total {processed_files_count} files processed.")
 
